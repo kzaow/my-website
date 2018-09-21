@@ -422,8 +422,9 @@ body.offcanvas {
   margin-bottom: 13em;
 }
 
-i.icon-github::before, i.icon-linkedin2::before{
+i.icon-github::before{
   font-size: 25px;
+  z-index: 1;
 }
 
 .about-desc h3 {
@@ -678,7 +679,7 @@ i.icon-github::before, i.icon-linkedin2::before{
     bottom: 0;
     left: 0;
     right: 0;
-    background: #2c98f0;
+
     opacity: 0;
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
@@ -711,6 +712,7 @@ i.icon-github::before, i.icon-linkedin2::before{
       font-family: "Quicksand", Arial, sans-serif;
       font-size: 16px;
       font-weight: 500;
+      color: white;
       text-transform: uppercase;
       letter-spacing: 1px;
       -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
@@ -726,7 +728,7 @@ i.icon-github::before, i.icon-linkedin2::before{
         color: #fff; }
     .project .desc span {
       display: block;
-      color: rgba(255, 255, 255, 0.7);
+      color: white;
       font-size: 13px;
       -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
       -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
