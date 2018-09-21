@@ -370,7 +370,7 @@ body.offcanvas {
 .colorlib-about,
 .colorlib-contact {
   padding-top: 4em;
-  padding-bottom: 9em;
+  padding-bottom: 4em;
   clear: both;
   width: 100%;
   display: block; }
@@ -420,6 +420,10 @@ body.offcanvas {
 
 .desc-header {
   margin-bottom: 13em;
+}
+
+i.icon-github::before, i.icon-linkedin2::before{
+  font-size: 25px;
 }
 
 .about-desc h3 {
